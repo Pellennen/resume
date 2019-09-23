@@ -463,6 +463,7 @@ input::-moz-focus-inner {
    width: 96%;
    max-width: 1020px;
    margin: 0 auto;
+   cursor: pointer;
 }
 
 .ie .row { width: 1000px ; }

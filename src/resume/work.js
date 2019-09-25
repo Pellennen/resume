@@ -19,7 +19,7 @@ function Work(){
     useEffect(() => void setInterval(() => set(state => (state + 1) % 4), 2000), [])
     return transitions.map(({ item, props, key }) => (
       <animated.div
-        id='resume  '
+        id='passions'
         key={key}
         class="bg"
         style={{ ...props, backgroundImage: `url(https://images.unsplash.com/${item.url}&auto=format&fit=crop)` }}

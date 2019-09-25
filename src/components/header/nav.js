@@ -37,8 +37,7 @@ export default class nav extends Component {
         
       
       <nav id="nav-wrap">
-          <a className="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
-          <a className="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
+
           
 
           <ul id="nav" className="nav">
@@ -54,8 +53,9 @@ export default class nav extends Component {
         {(props) => (
           <div onMouseEnter={() => this.onMouseEnter()} onMouseLeave={() => this.onMouseLeave()}>
           <li className="current"><a className="smoothscroll" href="#home">Home</a></li>
-          <li><a style={props} className="smoothscroll" href="#resume">Resume</a></li>
+        
   <li><a style={props} className="smoothscroll" href="#about">About</a></li>
+  <li><a style={props} className="smoothscroll" href="#passions">Passions</a></li>
           </div>
         )}
   </Spring>

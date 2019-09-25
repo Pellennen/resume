@@ -28,7 +28,7 @@ function About() {
          
          <div className="nine columns main-col">
            <h2>About Me</h2>
-           <p>I prefer to keep learning, continue challenging myself, and do interesting things.’m easily inspired and more then willing to follow my fascinations wherever they take me.
+           <p>I prefer to keep learning, continue challenging myself, and do interesting things. I’m easily inspired and more then willing to follow my fascinations wherever they take me.
            I’m a fast learner, able to pick up new skills and juggle different projects and roles with relative ease. 
            I’m a people-person with deep emotions and empathy.
            Feel free to get in touch by any means of communication.
@@ -56,7 +56,7 @@ function About() {
        </div>
        
       </animated.div>
-      <div className='things'>Things i like to do</div>
+      <div className='things'>My passions</div>
     </div>
      
         

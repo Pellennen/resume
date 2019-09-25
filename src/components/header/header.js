@@ -48,7 +48,8 @@ export default class Header extends Component {
           
           opacity: toggle ? '1' : '0',
           width: toggle ? '100%' : '0%',
-          backgroundColor:toggle ? 'white' : 'black' 
+          backgroundColor:toggle ? 'white' : 'black'
+          
         }}
         config={{duration: 700}}
         >

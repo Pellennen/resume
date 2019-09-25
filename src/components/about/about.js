@@ -41,7 +41,7 @@ function About() {
                  <span>Främlingsvägen 19C<br />
                    126 48 Hägersten
                  </span><br />
-                 <span>0731417253</span><br />
+                 
                  <span>perszackrisson@gmail.com</span>
                </p>
              </div>
